@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+#game-area{
+    height: 400px;
+    width: 600px;
+    background-color: rgba(0, 255, 255, 0.501);
+    position: relative;
+    border: 2px solid red;
+    box-shadow:1px 0px 10px red;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.middleline{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 20px;
+    
+}
+#floating-ball{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 100%;
+}
+.btns{
+    padding: 10px;
+    border-radius: 11px;
+}
+.start-Btn{
+    padding: 10px;
+    position: relative;
+    left: 46%;
+    border-radius: 11px;
+
+}
+.userSideBtnHolder{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ballHitWall{
+    width: 20px;
+    background-color: yellow;
+    height: 150px;
+ 
+}
